@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Map of NYC Parks and Fountains",
+    "section": "",
+    "text": "The following is an map containing all public parks and drinking fountains in New York City, and this webpage contains additional information about each park and fountain."
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Welcome to Dan’s first website!",
+    "section": "",
+    "text": "This site will be used to provide information about anything you could ever want to know about!\nThis is how you will look after visiting this site!\n\nThis site is a work in progress. I am hoping you’re having as good of a time reading it as I had making it!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "My name is Dan Najjar, and I am a first year graduate student at Hunter College in the MS in GeoInformatics program. I am passionate about the environment, and hope to work in envirnmental conservation after I graduate. For more information, please reach out to me at dnajjar42@gmail.com.\nThanks for reading!"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "The following data was used to create the maps and visualizations on this website.\n\n\n\nPurpose\nData\n\n\n\n\nLocations of all public parks in NYC\nhttps://data.cityofnewyork.us/Recreation/Parks-Properties/enfh-gkve/about_data\n\n\nLocations of all public drinking fountains in NYC\nhttps://data.cityofnewyork.us/Recreation/NYC-Parks-Drinking-Fountains/qnv7-p7a2/about_data\n\n\n\nAdditionally, this webpage contains information regarding each type of fountain in NYC."
+  },
+  {
+    "objectID": "letter.html",
+    "href": "letter.html",
+    "title": "Open Letter to the Mayor",
+    "section": "",
+    "text": "Dear  :\nI am writing this letter to request a revamp of the public drinking fountains within New York City. A great deal of the ones within the city are of outdated design, and are inaccessible to handicapped people. Improving on this would make people feel happier in our outdoor spaces, and would be a great boon for the people of our city."
+  },
+  {
+    "objectID": "letter.html#fountain-status",
+    "href": "letter.html#fountain-status",
+    "title": "Open Letter to the Mayor",
+    "section": "Fountain Status",
+    "text": "Fountain Status\n\n\n\n\n\n\n\n\n\nFountain Type\nNumber in City\nModern Design?\nWheelchair Accessible?\n\n\n\n\nType A\n981\nNo\nNo\n\n\nType B\n140\nNo\nNo\n\n\nType C\n630\nNo\nYes\n\n\nType D\n377\nNo\nYes\n\n\nType E\n385\nSomewhat\nYes\n\n\nOther\n1336\nVarious\nVarious\n\n\n\nThis webpage contains information regarding each type of fountain in our city, and this webpage shows an interactive map I made with the locations of each fountain.\n\n\n\n\nI do not mean to imply that the parks department does not care for the fountains in the city. The following video shows the efforts that our city workers are putting into the program: \nIn conclusion, it would be a wonderful thing for our city to have better access to clean, drinkable water wherever we may be. Thank you for your time, I hope to hear from you soon!\nYours,\n\n emails sent\n\nviewof letterAuthor = Inputs.text({value: \"\", label:\"Sign your Name\"})\n\nviewof recipient = Inputs.select([\"**Select Recipient**\", \"Mayor\", \"Congressperson\", \"Department Director\"], {label: \"Select Recipient\"})\n\nviewof button = Inputs.button(\"Send Email\")"
+  }
+]
